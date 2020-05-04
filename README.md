@@ -22,6 +22,7 @@ ssh -i "demo.pem" ubuntu@ec2-3-81-48-139.compute-1.amazonaws.com
 
 ##### docker kms
 ```
+docker pull kurento/kurento-media-server
 docker run --name kms -d -p 8888:8888 kurento/kurento-media-server
 docker run --name kms -d -v ~/kaden/tmp:/tmp -p 8888:8888  kurento/kurento-media-server
 
