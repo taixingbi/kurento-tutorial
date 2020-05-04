@@ -23,6 +23,11 @@ mvn -U clean spring-boot:run -Dkms.url=ws://3.81.48.139:8888/kurento
 ##### docker 
 ```
 sudo docker cp kms:/tmp/HelloWorldRecorded.webm ~/Desktop/HelloWorldRecorded.webm
+docker exec -it containerId bash   
+
+docker stop $(docker ps -aq)    
+docker rm $(docker ps -aq)    
+docker rmi $(docker images -q)
 ```
 
 https://localhost:8443
