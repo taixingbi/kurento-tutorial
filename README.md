@@ -46,3 +46,13 @@ docker rmi $(docker images -q)
 
 https://localhost:8443
 
+
+##### amount
+sshfs ubuntu@ec2-3-83-93-57.compute-1.amazonaws.com/home/ubuntu/code /kaden/kurento -o IdentityFile=/kindom/demo.pem -o allow_other
+
+
+
+https://howchoo.com/g/ymmxmzlmndb/how-to-install-sshfs
+
+
+
