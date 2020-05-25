@@ -19,8 +19,7 @@ mvn -U clean spring-boot:run -Dkms.url=ws://3.81.48.139:8888/kurento
 ```
 
 ##### ec2 kms
-ssh -i "demo.pem" ubuntu@ec2-3-81-48-139.compute-1.amazonaws.com
-
+ssh -i "demo.pem" ubuntu@ec2-3-80-4-195.compute-1.amazonaws.com
 ##### docker kms
 ```
 docker pull kurento/kurento-media-server
@@ -42,10 +41,10 @@ docker rmi $(docker images -q)
 ```
 
 https://localhost:8443 
-http://100.26.120.180:8080/
+http://3.80.4.195:8080/
 
 ##### amount
-sshfs ubuntu@ec2-100-26-120-180.compute-1.amazonaws.com:/home/ubuntu/Code/openvidu Code/openvidu -o IdentityFile=/kindom/demo.pem -o allow_other
+sshfs ubuntu@ec2-3-80-4-195.compute-1.amazonaws.com:/home/ubuntu/Code/openvidu Code/openvidu -o IdentityFile=/kindom/demo.pem -o allow_other
 
 
 https://howchoo.com/g/ymmxmzlmndb/how-to-install-sshfs
