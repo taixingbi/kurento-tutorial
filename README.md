@@ -45,7 +45,7 @@ https://localhost:8443
 
 
 ##### amount
-sshfs ubuntu@ec2-3-83-93-57.compute-1.amazonaws.com:/home/ubuntu/Code /openvidu/Code -o IdentityFile=/kindom/demo.pem -o allow_other
+sshfs ubuntu@ec2-3-83-93-57.compute-1.amazonaws.com:/home/ubuntu/Code/openvidu Code/openvidu -o IdentityFile=/kindom/demo.pem -o allow_other
 
 
 
