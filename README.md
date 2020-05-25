@@ -13,7 +13,7 @@ cd kurento-tutorial-java/kurento-hello-world-recording
 ```
 
 #### instance
-sshfs ubuntu@ec2-3-83-93-57.compute-1.amazonaws.com:/home/ubuntu/code ~/kaden/kurento -o IdentityFile=~/kindom/demo.pem -o allow_other
+sshfs ubuntu@ec2-3-83-93-57.compute-1.amazonaws.com:/home/ubuntu/code ~/openvidu/Code -o IdentityFile=~/kindom/demo.pem -o allow_other
 
 ##### run
 ```
