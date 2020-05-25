@@ -41,8 +41,8 @@ docker rm $(docker ps -aq)
 docker rmi $(docker images -q)
 ```
 
-https://localhost:8443
-
+https://localhost:8443 
+http://100.26.120.180:8080/
 
 ##### amount
 sshfs ubuntu@ec2-100-26-120-180.compute-1.amazonaws.com:/home/ubuntu/Code/openvidu Code/openvidu -o IdentityFile=/kindom/demo.pem -o allow_other
