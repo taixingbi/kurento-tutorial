@@ -19,17 +19,17 @@ mvn -U clean spring-boot:run -Dkms.url=ws://3.81.48.139:8888/kurento
 ```
 
 ##### ec2 kms
+```
 ssh -i "demo.pem" ubuntu@ec2-3-80-4-195.compute-1.amazonaws.com
+https://ec2-100-26-151-26.compute-1.amazonaws.com
+```
+
 ##### docker kms
 ```
 docker pull kurento/kurento-media-server
 docker run --name kms -d -p 8888:8888 kurento/kurento-media-server
 docker run --name kms -d -v ~/kaden/tmp:/tmp -p 8888:8888  kurento/kurento-media-server
 docker run --name kms -d -v ~/Desktop/tmp:/tmp -p 8888:8888  kurento/kurento-media-server
-
-##### aws kms
-```
-https://ec2-100-26-151-26.compute-1.amazonaws.com
 ```
 
 
